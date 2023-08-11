@@ -1,0 +1,50 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{19D18620-B86B-4B25-BAB7-598159F76AB7}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RSSWebApp/wwwroot/css/imdbCss.css">
+    <Files>
+      <File FileName="RSSWebApp/Controllers/ImdbController.cs" Line="240" Column="1" />
+      <File FileName="RSSWebApp/Views/Imdb/CastDetails.cshtml" Line="41" Column="38" />
+      <File FileName="RSSWebApp/Data/Entity/Cast.cs" Line="31" Column="22" />
+      <File FileName="RSSWebApp/wwwroot/css/imdbCss.css" Line="24" Column="12" />
+      <File FileName="RSSWebApp/wwwroot/css/site.css" Line="88" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RSSWebApp" expanded="True">
+            <Node name="RSSWebApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Context" expanded="True" />
+                <Node name="Entity" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Dtos" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Imdb" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="imdbCss.css" selected="True" />
+                </Node>
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RSSWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

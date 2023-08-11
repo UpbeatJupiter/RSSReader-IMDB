@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Rss Reader Page";
+    var ajanslar = ViewBag.Ajanslar != null ? (List<string>)ViewBag.Ajanslar : new List<string>();
+}
+<br />
+<h2>RSS Feed Reader</h2>
+<hr />
+<br />
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            <div class="custom-select" style="width:200px;">
+                <select>
+
+                    @{
+                        <option value="">Haber Ajansı Seçiniz</option>
+                        foreach (string ajans in ajanslar)
+                        {
+                            <option onclick="selectedAgency('@ajans')" value="@ajans">@ajans</option>
+                        }
+                    }
+
+                </select>
+            </div>
+            <div class="findDiv">
+                <input class="form-control" type="text" id="find" placeholder="Kelime Giriniz..." >
+                <button class="btn" type="button" id="submitfind" onclick="findWord()">Ara</button>
+            </div>
+        </div>
+        
+        <br />
+        <br />
+        <br />
+    </div>
+}
+<div id="news">
+
+</div>

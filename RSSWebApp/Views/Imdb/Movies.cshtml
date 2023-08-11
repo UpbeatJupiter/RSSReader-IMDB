@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+    var movieViewBag = ViewBag.movieList;
+}
+<br />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Rate</th>
+        </tr>
+    </thead>
+    <tbody class="imdbTable" id="imdbTablosu">
+        @foreach (RSSWebApp.Data.Entity.Movie movie in movieViewBag)
+        {
+            <tr>
+                <td>@movie.MovieId</td>
+                <td>@movie.MovieName</td>
+                <td>@movie.MovieYear</td>
+                <td>@movie.MovieRate</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

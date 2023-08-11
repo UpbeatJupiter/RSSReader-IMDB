@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RSSWebApp",
+    "\\RSSWebApp\\Controllers",
+    "\\RSSWebApp\\Data",
+    "\\RSSWebApp\\Data\\Context",
+    "\\RSSWebApp\\Models",
+    "\\RSSWebApp\\Views",
+    "\\RSSWebApp\\Views\\Home"
+  ],
+  "SelectedNode": "\\RSSWebApp.sln",
+  "PreviewInSolutionExplorer": false
+}

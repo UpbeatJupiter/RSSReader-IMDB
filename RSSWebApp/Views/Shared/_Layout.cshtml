@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RSSWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RSSWebApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/imdbCss.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAUscVAE7uzgBM//8ATP//AEz//wBM//8ATP//AEz//wBM//8ATP//AEz//wBM//8ATP//AEz//wBO7s4AUscVAFDuzQBU//8AZP//AG3//wBt//8Abf//AG3//wBt//8Abf//AG3//wBt//8Abf//AG3//wBk//8AVP//AFDuzQBS//8AZ///gLj//+Du//+AuP//AHD//wBw///A3P///////wBw//8AcP//wNz///////8AcP//AGf//wBS//8AVf//AHP//+Dt/P//////4O38/wBz//8Ac///8Pb9/+Dr+f8Ac///AHP//+Dr+v//////AHP//wBz//8AVf//AFn//wB2//+Asen/4Ov5/4Cx6f8Adv//gLv///////+Asen/AHb//yCH////////v9bx/wB2//8Adv//AFn//wBd//8Aef//AG3l/wBk0v8AbeX/MJL////////w9vz/EHbn/wB5//+Qw/z//////3Cq6v8Aef//AHn//wBd//8AYP//AHz//wB8//8AfP//gL7/////////////UJXe/wB7/P8gjP//7/X8/+/1+/8Qeur/AHz//wB8//8AYP//AGT//wB////A3///8Pf////////w9vz/UJbc/wB37/8Af///wN/+//////+As+f/AH78/wB///8Af///AGT//wBp//8Agv///////+Ds+f+AtOb/EHPS/wB67/8Agv//oND////////Q4/b/AHXl/wCC//8Agv//AIL//wBp//8Abv//AIX//wBqzP8AbtL/AHfl/wCD/P8glP//0On////////w9vz/EHjY/wCF//8Ahf//AIX//wCF//8Abv//AHP//wCI//8AiP//AIj//yCX//+g0//////////////Q5Pb/EHfS/wCG/P8AiP//AIj//wCI//8AiP//AHP//wB4//8Ai///wOL//+Dx//////////////D3/P+At+b/AHTV/wCJ/P8Ai///AIv//wCL//8Ai///AIv//wB4//8AfP//AI3/////////////wNzy/3Cv4v8Qe9L/AH/l/wCN//8Ajf//AI3//wCN//8Ajf//AI3//wCN//8AfP//AID//yqe//8Ac8z/AHPM/wB72f8AhOn/AI78/wCQ//8AkP//AJD//wCQ//8AkP//AJD//wCQ//8qnv//AID//wCE98YqnP//VbT//1W1//9Vtf//VbX//1W1//9Vtf//VbX//1W1//9Vtf//VbX//1W1//9VtP//Kpz//wCE98YAhuUSAIn4xgCJ//8Aif//AIn//wCJ//8Aif//AIn//wCJ//8Aif//AIn//wCJ//8Aif//AIn//wCJ+MYAhuUSgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAA==" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RSSWebApp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Imdb" asp-action="IndexImdb">IMDB</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/imdbJS.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

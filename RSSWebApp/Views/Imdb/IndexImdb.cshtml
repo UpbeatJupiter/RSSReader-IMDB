@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "IMDB Page";
+
+}
+<br />
+<h2>IMDB</h2>
+<hr />
+<br />
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            <div class="imdbFindDiv">
+                <input class="form-control" type="text" id="imdbSearchInput" placeholder="Film Giriniz...">
+                <button class="btn" type="button" id="submitImdb" onclick="imdbSearch(document.getElementById('imdbSearchInput').value)">Ara</button>
+            </div>
+            <div class="CastFindDiv">
+                <input class="form-control" type="text" id="castSearchInput" placeholder="Yönetmen Giriniz...">
+                <button class="btn" type="button" id="submitCast" onclick="castSearch(document.getElementById('castSearchInput').value)">Ara</button>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+    </div>
+
+    
+}
+<div id="resultDiv">
+
+</div>

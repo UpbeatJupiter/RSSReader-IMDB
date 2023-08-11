@@ -1,0 +1,111 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.castMovies tr:nth-child(even) {
+    background-color: rgb(245,197,24);
+}
+
+.imdbFindDiv {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    appearance: none;
+    font-size: 1px;
+    display: inline-flex;
+    float: left;
+    width: 30%;
+}
+
+#imdbSearchInput {
+    background-color: white;
+    border-color: hsl(240, 1%, 83%);
+    border-radius: 1px;
+    color: hsl(240, 4%, 20%);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+#submitImdb {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,197,24);
+    color: black;
+    border-color: transparent;
+    border-radius: 1px;
+    box-shadow: 0 1px 4px hsla(220, 90%, 37%, 0.25);
+    margin-bottom: 1.5%;
+    margin: initial;
+}
+
+
+.CastFindDiv {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    appearance: none;
+    font-size: 1px;
+    display: inline-flex;
+    float: right;
+    width: 30%;
+}
+
+#castSearchInput {
+    background-color: white;
+    border-color: hsl(240, 1%, 83%);
+    border-radius: 1px;
+    color: hsl(240, 4%, 20%);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+#submitCast {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,197,24);
+    color: black;
+    border-color: transparent;
+    border-radius: 1px;
+    box-shadow: 0 1px 4px hsla(220, 90%, 37%, 0.25);
+    margin-bottom: 1.5%;
+    margin: initial;
+}
+
+.castMovies {
+    float: left;
+    width: 70%;
+}
+
+.castDetails {
+    float: left;
+    width: 70%;
+}
+
+
+.castPhoto {
+    float: left;
+    width: 25%;
+}

@@ -1,0 +1,57 @@
+﻿@using RSSWebApp.Models.Dtos
+@model CastDetailsDto
+@{ var imagePath = "";
+    if (Model.CastInfo.CastPhoto != null)
+    {
+        imagePath = Model.CastInfo.CastPhoto;
+    }
+}
+@{
+    Layout = null;
+
+}
+<br />
+
+<div>
+    <div class="castName">
+        <h2>@Model.CastInfo.CastName</h2>
+        <hr />
+    </div>
+
+    <div class="castPhoto">
+        @if (imagePath != "")
+        {
+            <img src="@imagePath" alt="Sample Image" width="300px" />
+        }
+    </div>
+
+    <div class="castDetails">
+        <p>@Model.CastInfo.CastDetails</p>
+    </div>
+
+        <div class="castMovies">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Movies</th>
+                        <th>Year</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody id="movieTable">
+
+                    @foreach (MovieDto movie in Model.MovieList)
+                    {
+                        <tr>
+                            <td>@movie.MovieName</td>
+                            <td>@movie.MovieYear</td>
+                            <td>@movie.MovieRate</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+  
+
+</div>
