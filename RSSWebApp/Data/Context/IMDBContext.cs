@@ -6,8 +6,13 @@ namespace RSSWebApp.Data.Context
 {
     public class IMDBContext : DbContext
     {
+        public IMDBContext()
+        {
 
-        public DbSet<Movie> Movies { get; set; }
+        }
+
+		public IMDBContext(DbContextOptions options) : base(options) { }
+		public DbSet<Movie> Movies { get; set; }
         public DbSet<Award> Awards { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<MovieCategory> MovieCategories { get; set; }
@@ -17,7 +22,7 @@ namespace RSSWebApp.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=ImdbCF;Uid=sa;Pwd=password123;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=IMDB;trusted_connection=true;TrustServerCertificate=true;");
         }
 
 

@@ -43,7 +43,7 @@ namespace RSSWebApp.Data.Entity
         [Column("Link")]
         public string CastLink { get; set; }
 
-        public ICollection<Award> Awards { get; set; }
+        public IList<Award> Awards { get; set; }
         public IList<MovieCastRole> MovieCastRoles { get; set; }
     }
 

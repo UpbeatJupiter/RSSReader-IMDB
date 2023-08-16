@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RSSWebApp
 build_property.RootNamespace = RSSWebApp
-build_property.ProjectDir = C:\Users\Elif Tuncer\OneDrive - Bahceşehir Üniversitesi\Masaüstü\codes\Projects\RSSWebApp\RSSWebApp\
+build_property.ProjectDir = C:\Users\Elif Tuncer\Desktop\BilgeAdam\Projeler\RSSWebApp\RSSWebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Elif Tuncer\OneDrive - Bahceşehir Üniversitesi\Masaüstü\codes\Projects\RSSWebApp\RSSWebApp
+build_property.MSBuildProjectDirectory = C:\Users\Elif Tuncer\Desktop\BilgeAdam\Projeler\RSSWebApp\RSSWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Home/Index.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Home/News.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Home/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Imdb/CastDetails.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Imdb/CastDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1kYlxDYXN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Imdb/IndexImdb.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Imdb/IndexImdb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1kYlxJbmRleEltZGIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Imdb/Movies.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Imdb/Movies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1kYlxNb3ZpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Shared/Error.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/_ViewImports.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/_ViewStart.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Elif Tuncer/OneDrive - Bahceşehir Üniversitesi/Masaüstü/codes/Projects/RSSWebApp/RSSWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Elif Tuncer/Desktop/BilgeAdam/Projeler/RSSWebApp/RSSWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-obph0b70r8

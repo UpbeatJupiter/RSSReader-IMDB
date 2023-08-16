@@ -11,7 +11,6 @@ namespace RSSWebApp.Data.Entity
         /// </summary>
         public int MovieId { get; set; }
 
-        [ForeignKey("MovieId")]
         public Movie Movie { get; set; }
 
         /// <summary>
@@ -19,7 +18,6 @@ namespace RSSWebApp.Data.Entity
         /// </summary>
         public int CastId { get; set; }
 
-        [ForeignKey("CastId")]
         public Cast Cast { get; set; }
 
         /// <summary>
@@ -27,7 +25,6 @@ namespace RSSWebApp.Data.Entity
         /// </summary>
         public int CastRoleId { get; set; }
 
-        [ForeignKey("CastRoleId")]
         public CastRole CastRole { get; set; }
     }
 
