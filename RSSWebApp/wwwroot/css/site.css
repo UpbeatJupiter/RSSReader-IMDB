@@ -98,7 +98,6 @@ tr:nth-child(even) {
     font-size: 1px;
     display: inline;
     float: right;
-    margin-top: -5%;
 }
 
 #find {
@@ -118,8 +117,8 @@ tr:nth-child(even) {
     border-radius: 1px;
     box-shadow: 0 1px 4px hsla(220, 90%, 37%, 0.25);
     color: white;
-    margin-bottom: 1.5%;
-    margin:inherit;
+    margin-bottom: 4.8%;
+
 }
 
 #haberLinki:link {
@@ -133,3 +132,16 @@ tr:nth-child(even) {
     background-color: transparent;
     text-decoration: none;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

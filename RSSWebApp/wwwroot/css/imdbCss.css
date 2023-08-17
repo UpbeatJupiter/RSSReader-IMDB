@@ -94,9 +94,11 @@ body {
     margin: initial;
 }
 
+
 .castMovies {
     float: left;
     width: 70%;
+    display: contents;
 }
 
 .castDetails {

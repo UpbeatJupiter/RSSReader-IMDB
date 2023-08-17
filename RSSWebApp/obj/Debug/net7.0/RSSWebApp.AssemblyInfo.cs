@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RSSWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81f50c3ea161e1217386e3c7199c259ea8d24a18")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84352e7a25e0d2cb5bd6775521d685328e5c2195")]
 [assembly: System.Reflection.AssemblyProductAttribute("RSSWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RSSWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
